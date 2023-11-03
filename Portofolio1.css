@@ -1,0 +1,294 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.complete 
+{
+    display: flex;
+}
+.sidelinks
+{
+    display: block;
+    width:400px;
+    height: 900px;
+    background-color: rgb(209, 235, 235);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.aboutme i
+{
+    margin-left: 5px;
+}
+.profile img
+{
+    border-radius: 50%;
+    width: 220px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.profile h2 
+{
+    margin:0 20px;
+}
+.profile p
+{
+    margin-left: 50px;
+    font-size: 0.8rem;;
+
+}
+.links
+{
+    display: block;
+    margin-top: 0px;
+    width: 200px;
+    height: 400px;
+
+}
+.links  ul
+{
+    list-style: none;
+}
+.links ul li 
+{
+    display: block;
+    margin-top: 40px;
+}
+.links ul li a
+{
+    width: 500px;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:100px;
+    padding-right: 100px;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: rgb(51, 48, 48);
+    color:whitesmoke;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.links ul li a:hover
+{
+    background-color:rgb(94, 91, 91);
+}
+
+.main
+{
+    background-color:rgb(249, 247, 239);
+    width: 100%;
+
+}
+.aboutme
+{
+    position:relative;
+    top:100px;
+    left:30px;
+}
+.aboutme h1
+{
+    font-size: 2rem;
+}
+.aboutme p
+{
+    font-size: 0.9rem;
+}
+.aboutme  a
+{
+    width:400px;
+    height: 200px;
+    padding: 10px;
+    background-color: rgb(70, 68, 68);
+    color:white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 15px;
+}
+
+.details
+{
+    margin-top: 50px;
+    display: flex;
+}
+
+#about_me 
+{
+    margin-top: 150px;
+    margin-left: 300px;
+}
+#about_me  a
+{
+    color: rgb(56, 49, 49);
+}
+.bio ul
+{
+    list-style: none;
+    font-size: 1rem;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 1.2rem;
+}
+.bio ul li
+{
+    margin-top: 15px;
+}
+.bio a
+{
+    width:800px;
+    height:100px;
+    background-color: rgb(57, 55, 55);
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+.boxes_complete
+{
+    margin-left: 100px;
+}
+.boxes
+{
+    display: flex;
+}
+.box
+{
+    margin: 40px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(44, 42, 42);
+}
+.box span
+{
+    font-size: 2rem;
+    color: white;
+    opacity: 0.5;
+}
+.box p
+{
+    font-size: 1rem;
+    color: white;
+}
+#my_edu
+{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+.education
+{
+    display: flex;
+    margin-left: 50px;
+}
+.edu
+{
+    margin-left: 70px;
+    border-left: 2px solid grey;
+    box-shadow: 90px;
+    margin-bottom: 80px;
+}
+.edu span
+{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    border-radius: 5px;
+    padding:0 10px 0 10px;
+}
+.edu h4
+{
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+}
+
+.edu p
+{
+    margin: 0px;
+    font-size: 1rem;
+}
+.images
+{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.img img
+{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+.proto h1
+{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.contact_details
+{
+    display:flex;
+}
+#contact_me
+{
+    margin-left: 400px;
+}
+.contact_info
+{
+    display: block;
+}
+.contact_info p
+{
+    font-size: 1rem;
+}
+.contact_info
+{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.form
+{
+    margin-left: 250px;
+}
+
+.form input
+{
+    width: 400px;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: rgb(197, 197, 197);
+    color: white;
+    margin-bottom: 20px;
+}
+.form textarea
+{
+    font-size: 1.2rem;
+    background-color: rgb(190, 189, 189);
+    color: white;
+    width:400px;
+    height: 50px;
+
+}
+
+.form button
+{
+    width:150px;
+    height: 50px;
+    background-color: rgb(71, 70, 70);
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+.contact_details i
+{
+    margin-right: 5px;
+}
+.form i
+{
+    margin-left: 5px;
+}
